@@ -8,7 +8,9 @@ function Navbar() {
         <div className='relative flex h-16 items-center justify-between'>
           <div className='flex flex-1 items-center justify-start'>
             <div className='flex items-center'>
-              <span className='text-white font-extrabold text-xl '>Zadala</span>
+              <span className='text-white font-extrabold text-3xl '>
+                Zadala
+              </span>
             </div>
             <div className='ml-auto block'>
               <div className='flex gap-4 text-white font-semibold'>

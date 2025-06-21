@@ -11,7 +11,7 @@ function ProductCard({ product }) {
       <p className='text-lg text-gray-700 mb-4'>PHP {product.price}</p>
       <Link
         to={`/products/${product.id}`}
-        className='inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors'
+        className='bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 '
       >
         View Details
       </Link>
