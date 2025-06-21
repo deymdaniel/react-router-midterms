@@ -34,7 +34,7 @@ function ProductDetailPage() {
             <p className='text-2xl text-gray-800 mb-4'>PHP {product.price}</p>
             <p className='text-md text-gray-600 mb-6'>{product.description}</p>
             <Link to='/products' className='text-blue-500 hover:underline'>
-              &larr; Back to Products
+              Back to Products
             </Link>
           </div>
         </div>
